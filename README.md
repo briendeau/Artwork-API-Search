@@ -1,6 +1,6 @@
 # Artwork-API-Search
 Using 6 Web APIs to create a dynamic search list of artwork photos asynchronously. 
-Using asynchronous fetching and promises techniques, pulling from 5 JSON data apis to generate select lists that change on event input. And an Image database API to pull images.
+Using asynchronous fetching and promises techniques, pulling from 5 JSON data apis to generate select lists that change on event input. And an Image API url-string to pull images.
 In this example project I use Promise.all() to perform 4 asynchronous fetches at once, and destructure them into their own data arrays for further processing.
 Used advanced loop and array method techniques to implement DOM markup.
 Pulling images from a user database api, etc.
