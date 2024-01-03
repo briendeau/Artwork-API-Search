@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
       const [countriesArr, citiesArr, continentsArr, userArr] = await Promise.all( [countryPromise, cityPromise, continentPromise, userPromise] );
 
-      // we have the data now we can turn of loading animation and show the select elements
+      // we have the data now we can turn off loading animation and show the select elements
       loader1.style.display = "none";
       main.style.display = "block";
       filters.style.display = "block";
